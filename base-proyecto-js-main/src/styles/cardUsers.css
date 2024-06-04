@@ -1,0 +1,64 @@
+.carduser {
+  width: 190px;
+  height: 190px;
+  border-radius: 22px;
+  background: lightgrey;
+  background: linear-gradient(145deg, #ff6b6b, #d43636);
+  box-shadow: 2px 3px 3px #ba2f2f,
+             2px 3px 3px #ff4949;
+}
+
+.avatar {
+  width: 45px;
+  height: 45px;
+  display: inline-block;
+  background-color: rgba(255,255,255,0.9);
+  margin: 30px 15px 20px 25px;
+  border-radius: 14px;
+}
+
+.info {
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 33px;
+  width: 85px;
+}
+
+.info-1, .info-2 {
+  display: inline-block;
+  height: 20px;
+  width: 100%;
+  color: black;
+  padding: 2px;
+  border-radius: 6px;
+  background: rgba(255,255,255,0.9);
+  padding: 1px;
+}
+
+.info-2 {
+  height: 20px;
+  width: 100%;
+  border-radius: 6px;
+}
+
+.content-1 {
+  width: 90%;
+  border-radius: 9px;
+  color: black;
+  background: rgba(255,255,255,0.9);
+  height: 50px;
+  margin: auto;
+  padding: 3px;
+}
+
+.content-2 {
+  width: 85%;
+  border-radius: 9px;
+  color: black;
+  background: rgba(255,255,255,0.9);
+  height: 24px;
+  margin: 10px 0 0 20px;
+  font-size: small;
+  justify-content: center;
+  align-items: center;
+}

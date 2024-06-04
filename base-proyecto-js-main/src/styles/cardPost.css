@@ -1,0 +1,91 @@
+.card-containerpost {
+  width: 300px;
+  height: 480px;
+  position: relative;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+}
+
+.cardpost {
+  width: 100%;
+  height: 100%;
+  border-radius: inherit;
+}
+
+.cardpost .front-contentpost {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1)
+}
+
+.cardpost .front-contentpost p {
+  font-size: 32px;
+  font-weight: 700;
+  opacity: 1;
+  background: linear-gradient(-45deg, #f89b29 0%, #ff0f7b 100% );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1)
+}
+
+.cardpost .contentpost {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 10px;
+  background: linear-gradient(-45deg, #f89b29 0%, #ff0f7b 100% );
+  color: #e8e8e8;
+  padding: 20px;
+  line-height: 1.5;
+  border-radius: 5px;
+  pointer-events: none;
+  transform: translateY(-96%);
+  transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+}
+
+.cardpost .contentpost .headingpost {
+  font-size: 24px;
+  font-weight: 525;
+}
+
+.cardpost:hover .contentpost {
+  transform: translateY(0);
+}
+
+.cardpost:hover .front-contentpost {
+  transform: translateY(30%);
+}
+
+.cardpost:hover .front-contentpost p {
+  opacity: 0;
+}
+
+#tagpost {
+  font-size: 24px;
+  font-weight: 525;
+  opacity: 1;
+  background: linear-gradient(-45deg, #f89b29 0%, #ff0f7b 100% );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+  padding: auto;
+}
+ 
+#vistas {
+  font-size: 24px;
+  font-weight: 525;
+}
